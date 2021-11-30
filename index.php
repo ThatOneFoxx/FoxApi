@@ -4,7 +4,6 @@ header('Content-Type: application/json');
 
 $files = glob('../images/*');
 if ($files) {
-    $Number = count($files);
     $index = rand(1, $Number);
 
     $image_path = '';
